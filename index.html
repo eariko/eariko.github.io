@@ -1,49 +1,714 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-        <meta property="og:title" content="Emmanuel Jesse Ariko - Developer And IT Infrastructure Engineer" />
-        <meta property="og:locale" content="en_US" />
-        <meta property="og:type" content="website" />
-        <meta property="og:image" content="img/dev.jpg" />
-        <meta property="og:image:alt" content="Emmanuel J. Ariko" />
-        <meta property="og:image:width" content="400" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="author" content="Emmanuel Jesse Ariko"/>
-        <meta name="keywords" content="Freelance,Software,Developer,IT,Infrastructure,Engineer,Netowrking,VSAT,Peer Networks,Emmanuel,Jesse,Ariko, Liverpool,Computer,Science,Wordpress,Plugin,Website,Raspberry,Pi,Board Support Packages,Windows,Directory,Web,PHP,JavaScript,SQL,Java,C,UK,PowerBeam,Unifi,Miraki,Firewall,Security">
-        <meta name="description" content="Build professional Apps for you and your business, Websites, E-commerce sites, Games, Online Marketing, SEO, IT Security, Wordpress, Plugins, Graphics Design, IT Infrastructure, IoT for headless devices and Netowrking with wired and wireless devices." />
-        <meta property="og:description" content="Build professional Apps for you and your business, Websites, E-commerce sites, Games, Online Marketing, SEO, IT Security, Wordpress, Plugins, Graphics Design, IT Infrastructure, IoT for headless devices and Netowrking with wired and wireless devices." />
-        <meta property="og:url" content="https://eariko.github.io/" />
-        <meta property="og:site_name" content="Emmanuel Jesse Ariko" />
-        <meta name="twitter:card" content="summary" />
-        <meta property="twitter:title" content="Emmanuel Jesse Ariko" />
-        <meta name="twitter:site" content="@eariko1" />
-        
-        <title>eariko</title>
-        <link href="img/favicon.png" rel="icon">
-        <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
-        <link  media="all" rel="stylesheet" href="css/bootstrap.min.css" />
-        <link  media="all" rel="stylesheet" href="css/styles.css" />
-        <link  media="all" rel="stylesheet" href="css/all.css" />
 
-        <script type="application/ld+json">
-            {"@type":"WebSite","headline":"It is all about you - Freelance Software Developer and IT Infrastructure Engineer","url":"https://eariko.github.io/","description":"Build professional Apps for you and your business, Websites, E-commerce sites, Games, Online Marketing, SEO, IT Security, Wordpress, Plugins, Graphics Design, IT Infrastructure, IoT for headless devices and Netowrking with wired and wireless devices.","name":"Emmanuel Jesse Ariko - Developer And IT Infrastructure Engineer","@context":"https://eariko.github.io"}
-        </script>
-    </head>
-    <body>
-        <header>
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-        </header>
-        <div class="container-fluid">
-            <section class="h-50">
-                Hello
-            </section>
+  <title>Ariko</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  
+  <link href="img/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+  <link href="img/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+  <meta property="og:title" content="Emmanuel Jesse Ariko - Developer And IT Infrastructure Engineer" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="img/dev.jpg" />
+  <meta property="og:image:alt" content="Emmanuel J. Ariko" />
+  <meta property="og:image:width" content="400" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="author" content="Emmanuel Jesse Ariko"/>
+  <meta name="keywords" content="Freelance,Software,Developer,IT,Infrastructure,Engineer,Netowrking,VSAT,Peer Networks,Emmanuel,Jesse,Ariko, Liverpool,Computer,Science,Wordpress,Plugin,Website,Raspberry,Pi,Board Support Packages,Windows,Directory,Web,PHP,JavaScript,SQL,Java,C,UK,PowerBeam,Unifi,Miraki,Firewall,Security">
+  <meta name="description" content="Build professional Apps for you and for your business, Websites, E-commerce sites, Games, Online Marketing, SEO, IT Security, Wordpress, Plugins, Graphics Design, IT Infrastructure, IoT for headless devices and Netowrking with wired and wireless devices." />
+  <meta property="og:description" content="Build professional Apps for you and your business, Websites, E-commerce sites, Games, Online Marketing, SEO, IT Security, Wordpress, Plugins, Graphics Design, IT Infrastructure, IoT for headless devices and Netowrking with wired and wireless devices." />
+  <meta property="og:url" content="https://eariko.github.io/" />
+  <meta property="og:site_name" content="Emmanuel Jesse Ariko" />
+  <meta name="twitter:card" content="summary" />
+  <meta property="twitter:title" content="Emmanuel Jesse Ariko" />
+  <meta name="twitter:site" content="@eariko1" />
+
+  
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+ 
+  <link href="Support/aos/aos.css" rel="stylesheet">
+  <link href="support/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="support/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="support/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="support/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="support/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+
+  <link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+  <header id="header" class="d-flex flex-column justify-content-center">
+
+    <nav id="navbar" class="navbar nav-menu">
+      <ul>
+        <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+        <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+        <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+        <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+        <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Services</span></a></li>
+        <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+      </ul>
+    </nav>
+
+  </header>
+
+  <section id="hero" class="d-flex flex-column justify-content-center">
+    <div class="container" data-aos="zoom-in" data-aos-delay="100">
+      <h1>Emmanuel Jesse Ariko</h1>
+      <p>Computer Scientist specialising in <span class="typed" data-typed-items=" Software Engineering, IT Infrastructure, Internet of Things, Data Visualisation, Artificial Intelligence"></span></p>
+      <div class="social-links">
+        <a href="https://twitter.com/eariko1" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="https://www.linkedin.com/in/emmanuel-jesse-ariko/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <main id="main">
+
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>About</h2>
+          <p>Principal software developer and Network Infrastructure Engineer with expert knowledge developing and debugging in C#, Python and Java. With strong Web experience developing in PHP or Bash, JavaScript, HTML/CSS, SQL and modern web frameworks. I have got vast hands-on experience with filesystems, concurrency, server architectures, and distributed systems, along with high engineering level support for IT Infrastructure and Comunications networks.</p>
         </div>
-        <footer>
 
-        </footer>
-    </body>
+        <div class="row mx-3">
+          <div class="col-lg-4">
+            <img src="img/profile-img.jpg" class="img-fluid rounded-3" alt="Profile pic Emmanuel Jesse Ariko">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content">
+            <h3 style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">Software Developer &amp; Network Infrastructure Engineer.</h3>
+            <p class="fst-italic">
+              Freelance Developer with 9+ years experience in Java, C#, Python, PHP, SQL, JavaScript and HTML5/CSS.
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>eariko@github.io</span></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+447721084888</span></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Country:</strong> <span>UK</span></li>
+                </ul>
+              </div>
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="bi bi-chevron-right"></i> <strong>Speciality:</strong> <span>Advanced Computer Science</span></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Contact:</strong> <span><a href="mailto:eariko@tech-center.com?cc=eariko@outlook.com" >eariko@tech-center.com</a></span></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+                </ul>
+              </div>
+            </div>
+            <p>
+              <div class="mb-2" style="text-align:justify">3-time winner of prestigious award. I'm a Developer and Network Infrastructure Engineer who, from a young age believes in becoming a better version of myself every new day and, loves building products, solving interesting problems, and provide solutions that improve our lives and business processes.</div>
+              <div class="mb-2">My 9+ years of experience has enabled me gain valuable skillsets in developing innovative business and health applications, ecommerce sites, plugins and widgets. Passionate about data security, Telecom / microwave Technologies with Ubiquity, Netgear & Cisco Tech, and possess a wide variety of professional experiences in enterprise ICT services such as User support, System Administration and Network Infrastructure Support. </div>
+              <div class="mb-2">My work with multi-functional organisations including NHS, United Nations, University of Liverpool, Walter Reed, Wellcome Trust and Aerodrums, etc. has provided a platform to grow and contribute to enhancing the standard of lives in the community. Available for contracts starting April 2021.</div>
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+
+    <section id="facts" class="facts">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Facts</h2>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+            <div class="count-box">
+              <i class="bi bi-award"></i>
+              <span data-purecounter-start="0" data-purecounter-end="7" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Awards</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+            <div class="count-box">
+              <i class="bi bi-journal-richtext"></i>
+              <span data-purecounter-start="0" data-purecounter-end="267" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Projects</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+            <div class="count-box">
+              <i class="bi bi-emoji-smile"></i>
+              <span data-purecounter-start="0" data-purecounter-end="384" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Happy Clients</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+            <div class="count-box">
+              <i class="bi bi-headset"></i>
+              <span data-purecounter-start="0" data-purecounter-end="2149" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Hours Of Support</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    <section id="skills" class="skills section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Skills</h2>
+          <p>Solution-oriented Computer Scientist with a wide variety of professional experiences and remarkable skills in software engineering, computing and information Technology. Among the soft skills developed overtime include communication, leadership, team work, critical thinking, problem-solving, detail oriented and strong creativity. I've got strong interests in Artificial Intelligence, games, robotics, IoT, and travelling.</p>
+        </div>
+
+        <div class="row skills-content">
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+              <span class="skill">HTML <i class="val">100%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%;"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">CSS <i class="val">95%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%;"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">JavaScript <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Git <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">C# <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Agile Methodology <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Security and Virtualisation <i class="val">75%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+
+            <div class="progress">
+                <span class="skill">PHP <i class="val">80%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill">WordPress/CMS <i class="val">90%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill">Photoshop <i class="val">65%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100" style="width: 65%;"></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill">Java <i class="val">75%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill">SQL <i class="val">80%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill">IT Infrastructure <i class="val">85%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;"></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill">Linux <i class="val">65%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%;"></div>
+                </div>
+              </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+ 
+    <section id="resume" class="resume">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Resume</h2>
+          <p>Passionate about building partnerships, collaborating on projects to solve complex problems, as well as helping innovative companies and small businesses launch some of the most high-profile business applications out there. Taking a smart approach to building peak performance and high-traffic applications and solutions.</p>
+        </div>
+
+        <div class="row mb-md-2">
+          <div class="col-lg-6">
+            <h3 class="resume-title">Sumary</h3>
+            <div class="resume-item pb-0">
+              <h4>Emmanuel Jesse Ariko</h4>
+              <p><em>Innovative and passionate computer scientist with 9+ years of experience designing and developing user-centered software and web applications, widgets and plugins from initial concept to final, polished deliverable.</em></p>
+
+              <p><em>Strong IT Systems, Development and Networking Experience including IT infrastructure, Computer architecture review, proficient incident and problem diagnosis skills in a range of system types and roadmap planning. Experience in building IT support environment with technical skills in systems engineering and data security.</em></p>
+
+              <ul>
+                <li>+44 772 10 84 888</li>
+                <li><a href="mailto:eariko@tech-center.com?cc=eariko@outlook.com">eariko@tech-center.com</a></li>
+              </ul>
+            </div>
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>MSc. Advanced Computer Science</h4>
+                <h5>2018 - 2020</h5>
+                <p><em>University of Liverpool, Liverpool, UK</em></p>
+                <p>High quality specialised training in Computer software engineering (both applications and systems software), Privacy and Security, Data Mining and VIsualisation, Optimisation and Knowledge Representation.</p>
+            </div>
+            <div class="resume-item">
+              <h4>BSc. Computer Science</h4>
+                <h5>2010 - 2013</h5>
+                <p><em>Kampala International University, Kampala, UG</em></p>
+                <p>Analysis of Algorithms, Data Structures, Computer Architecture and Assembly Languages, Web Development, Computer Networks and computer systems administration, Databases, Mobile and Cloud Software Development.</p>
+            </div>
+
+            <h3 class="resume-title">Technical Skills &amp; Tools</h3>
+            <div class="resume-item">
+              <h4>Languages &amp; Databases</h4>
+                <p>JavaScript, PHP, Python, ASP, C++, C#, HTML, CSS, SQL, RDF, Java. Databases are MySQL, MangoDB, SQL Server, PostgreSQL, MS Access </p>
+            </div>
+            <div class="resume-item">
+              <h4>Software &amp; Hardware Tools</h4>
+                Eclipse, IntelliJ IDEA, Netbeans, VS Code, Git, MS Visual Studio, Chrome DevTools, WAMP Server, Electron, VirtualBox, JIRA, ,VMware, PuTTY, Git Extensions, Unity, Spiceworks, Dreamweaver, SoThink, Unifi Controller, 7-Zip, Bitlocker, iDirect, Teamviewer, Powershell/ CLI, Photoshop &amp; Illustrator.
+            </div>
+            <div class="resume-item">
+              <h4>Interests</h4>
+              <ul>
+                <li>Artificial Intelligence, Games, Robotics, Travelling, Networking, Virtual Reality (VR), Leadership and Volunteering concerts.</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Languages</h4>
+              <ul>
+                <li>English - Fluent with excellent listening,
+                  speaking, and writing skills. Ateso - Native. French - Elementary. 
+              </ul>
+            </div>
+            
+          </div>
+          <div class="col-lg-6">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>Developer</h4>
+              <h5>2021 - Present</h5>
+              <p><em>Freelance software developer and IT engineer </em></p>
+              <ul>
+                <li>Dedicated freelance developer offering services as PHP developer, Website Designer, Plugin Developer, Wordpress Developer, Graphic and logo design to build and prevail in cost-efective budget applications.</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Software Developer</h4>
+              <h5>2019 - 2020</h5>
+              <p><em>The Walton Centre NHS Foundation 
+                Trust, UK</em></p>
+              <ul>
+                <li>Developed while identifying areas for modification in existing programs and subsequently developing these modifications. Writing, documenting and implementing efficient code for eP2 patient record management system.  </li>
+                <li>Create and test software from start to finish. Routine discussion with managers and analyze user requests and requirements, then research and brainstorm practical solutions to meet those needs, and determine the best course of action to create the application.</li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Student Support Worker/ Researcher</h4>
+                  <h5>2019 (Summer)</h5>
+                  <p><em>University of Liverpool</em></p>
+                  <ul>
+                    <li>Conducted research on headless units and computers for simultaneous AP / Client mode network AND IoT connections with focus on emerging technologies, automation, embedded systems and sensor applications. </li>
+                    <li>Developed 3 custom Linux distributions with Yocto-project for Raspberry Pi and NXP boards to support research on headless device applications.</li>
+                  </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Developer</h4>
+                  <h5>2019</h5>
+                  <p><em>Aerodrums, UK </em></p>
+                  <ul>
+                    <li>Executed cross platform and multi modal IoT user interface design for the next generation Aerodrums air drumming instrument using C#. Operated Linux based BSP systems for Raspbian to develop applications that run on embedded systems using Raspberry Pi & NXP boards i.e., Micro-programmable chips for Wireless network.</li>
+                  </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Senior ICT Assitant</h4>
+                  <h5>2018</h5>
+                  <p><em>United Nations Refugee Agency (UNHCR) </em></p>
+                  <ul>
+                    <li>Oversaw and supported regional ICT associates and Telecom operators' duties including IT Infrastructure, VSAT Satellite configuration, VHF/HF radio setup, process improvement implementation, and system maintenance and technical repairs for existing and new systems.</li>
+                  </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center align-items-center">
+          <div class="col-6 text-center">
+            Download the detailed CV <a class="btn btn-primary ms-3" href="support/earikoCV.pdf">Download CV</a>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="services" class="services">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Services</h2>
+          <p>Expert Information Technology, Cloud computing, Network Infrastructure, Managed IT services, Consulting, Security and Computer Science services and solutions to grow your business. While offering business support solutions with 9+ years of experience onsite and remotely. </p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box iconbox-blue">
+              <div class="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,521.0016835830174C376.1290562159157,517.8887921683347,466.0731472004068,529.7835943286574,510.70327084640275,468.03025145048787C554.3714126377745,407.6079735673963,508.03601936045806,328.9844924480964,491.2728898941984,256.3432110539036C474.5976632858925,184.082847569629,479.9380746630129,96.60480741107993,416.23090153303,58.64404602377083C348.86323505073057,18.502131276798302,261.93793281208167,40.57373210992963,193.5410806939664,78.93577620505333C130.42746243093433,114.334589627462,98.30271207620316,179.96522072025542,76.75703585869454,249.04625023123273C51.97151888228291,328.5150500222984,13.704378332031375,421.85034740162234,66.52175969318436,486.19268352777647C119.04800174914682,550.1803526380478,217.28368757567262,524.383925680826,300,521.0016835830174"></path>
+                </svg>
+                <i class="bx bxl-dribbble"></i>
+              </div>
+              <h4><a href="">Web Development</a></h4>
+              <p>Build websites and web apps that grow, and fit your business goals and dreams.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box iconbox-orange ">
+              <div class="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,582.0697525312426C382.5290701553225,586.8405444964366,449.9789794690241,525.3245884688669,502.5850820975895,461.55621195738473C556.606425686781,396.0723002908107,615.8543463187945,314.28637112970534,586.6730223649479,234.56875336149918C558.9533121215079,158.8439757836574,454.9685369536778,164.00468322053177,381.49747125262974,130.76875717737553C312.15926192815925,99.40240125094834,248.97055460311594,18.661163978235184,179.8680185752513,50.54337015887873C110.5421016452524,82.52863877960104,119.82277516462835,180.83849132639028,109.12597500060166,256.43424936330496C100.08760227029461,320.3096726198365,92.17705696193138,384.0621239912766,124.79988738764834,439.7174275375508C164.83382741302287,508.01625554203684,220.96474134820875,577.5009287672846,300,582.0697525312426"></path>
+                </svg>
+                <i class="bx bx-file"></i>
+              </div>
+              <h4><a href="">Wordpress Services</a></h4>
+              <p>Setup wordpress, themes, plugins, e-commerce, SEOs, migrate site and build strong security.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box iconbox-pink">
+              <div class="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,541.5067337569781C382.14930387511276,545.0595476570109,479.8736841581634,548.3450877840088,526.4010558755058,480.5488172755941C571.5218469581645,414.80211281144784,517.5187510058486,332.0715597781072,496.52539010469104,255.14436215662573C477.37192572678356,184.95920475031193,473.57363656557914,105.61284051026155,413.0603344069578,65.22779650032875C343.27470386102294,18.654635553484475,251.2091493199835,5.337323636656869,175.0934190732945,40.62881213300186C97.87086631185822,76.43348514350839,51.98124368387456,156.15599469081315,36.44837278890362,239.84606092416172C21.716077023791087,319.22268207091537,43.775223500013084,401.1760424656574,96.891909868211,461.97329694683043C147.22146801428983,519.5804099606455,223.5754009179313,538.201503339737,300,541.5067337569781"></path>
+                </svg>
+                <i class="bx bx-tachometer"></i>
+              </div>
+              <h4><a href="">Tutoring</a></h4>
+              <p>Tutor project-based web and software development with special practical Computer lessons.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box iconbox-yellow">
+              <div class="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,503.46388370962813C374.79870501325706,506.71871716319447,464.8034551963731,527.1746412648533,510.4981551193396,467.86667711651364C555.9287308511215,408.9015244558933,512.6030010748507,327.5744911775523,490.211057578863,256.5855673507754C471.097692560561,195.9906835881958,447.69079081568157,138.11976852964426,395.19560036434837,102.3242989838813C329.3053358748298,57.3949838291264,248.02791733380457,8.279543830951368,175.87071277845988,42.242879143198664C103.41431057327972,76.34704239035025,93.79494320519305,170.9812938413882,81.28167332365135,250.07896920659033C70.17666984294237,320.27484674793965,64.84698225790005,396.69656628748305,111.28512138212992,450.4950937839243C156.20124167950087,502.5303643271138,231.32542653798444,500.4755392045468,300,503.46388370962813"></path>
+                </svg>
+                <i class="bx bx-layer"></i>
+              </div>
+              <h4><a href="">Graphic Design</a></h4>
+              <p>Professional Logo design, Social Media banner template, business card templates, and more.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box iconbox-red">
+              <div class="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,532.3542879108572C369.38199826031484,532.3153073249985,429.10787420159085,491.63046689027357,474.5244479745417,439.17860296908856C522.8885846962883,383.3225815378663,569.1668002868075,314.3205725914397,550.7432151929288,242.7694973846089C532.6665558377875,172.5657663291529,456.2379748765914,142.6223662098291,390.3689995646985,112.34683881706744C326.66090330228417,83.06452184765237,258.84405631176094,53.51806209861945,193.32584062364296,78.48882559362697C121.61183558270385,105.82097193414197,62.805066853699245,167.19869350419734,48.57481801355237,242.6138429142374C34.843463184063346,315.3850353017275,76.69343916112496,383.4422959591041,125.22947124332185,439.3748458443577C170.7312796277747,491.8107796887764,230.57421082200815,532.3932930995766,300,532.3542879108572"></path>
+                </svg>
+                <i class="bx bx-slideshow"></i>
+              </div>
+              <h4><a href="">Mobile App Development</a></h4>
+              <p>Progressive Web and business App development, and Cross-platform development.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box iconbox-teal">
+              <div class="icon">
+                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,566.797414625762C385.7384707136149,576.1784315230908,478.7894351017131,552.8928747891023,531.9192734346935,484.94944893311C584.6109503024035,417.5663521118492,582.489472248146,322.67544863468447,553.9536738515405,242.03673114598146C529.1557734026468,171.96086150256528,465.24506316201064,127.66468636344209,395.9583748389544,100.7403814666027C334.2173773831606,76.7482773500951,269.4350130405921,84.62216499799875,207.1952322260088,107.2889140133804C132.92018162631612,134.33871894543012,41.79353780512637,160.00259165414826,22.644507872594943,236.69541883565114C3.319112789854554,314.0945973066697,72.72355303640163,379.243833228382,124.04198916343866,440.3218312028393C172.9286146004772,498.5055451809895,224.45579914871206,558.5317968840102,300,566.797414625762"></path>
+                </svg>
+                <i class="bx bx-arch"></i>
+              </div>
+              <h4><a href="">Game Development</a></h4>
+              <p>Designer, programmer and Tester for GaaS in the gaming and video Industry.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+
+    
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Portfolio</h2>
+          <p>This content is currently being updated to show different projects completed and on-going.</p>
+        </div>
+
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="img/portfolio/portfolio-1.jpg" class="img-fluid  rounded-circle" alt="">
+              <div class="portfolio-info">
+                <h4>Networking projects</h4>
+                <p>Building Leadership Potential</p>
+                <div class="portfolio-links">
+                  <a href="img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Building Leadership Potential"><i class="bx bx-plus"></i></a>
+                  <a href="#" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="img/portfolio/portfolio-2.jpg" class="img-fluid  rounded-circle" alt="">
+              <div class="portfolio-info">
+                <h4>Web Development</h4>
+                <p>Mobile Apps, E-commerce &amp; Wordpress</p>
+                <div class="portfolio-links">
+                  <a href="img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web Development, Wordpress, Mobile and E-commerce sites"><i class="bx bx-plus"></i></a>
+                  <a href="#" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="img/portfolio/portfolio-3.jpg" class="img-fluid  rounded-circle" alt="">
+              <div class="portfolio-info">
+                <h4>Software Development</h4>
+                <p>Create Services &amp; Solutions</p>
+                <div class="portfolio-links">
+                  <a href="img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Software Development"><i class="bx bx-plus"></i></a>
+                  <a href="#" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="img/portfolio/portfolio-4.jpg" class="img-fluid rounded-circle" alt="">
+              <div class="portfolio-info">
+                <h4>Computer Networks</h4>
+                <p>IT Infrastructure &amp; Communications</p>
+                <div class="portfolio-links">
+                  <a href="img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="IT infrastructure and Satellite Connections"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+        </div>
+
+        <div class="row mt-1">
+
+          <div class="col-lg-4">
+
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>Myrtle Street, Merseyside, L7 7AJ, UK </p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p><a href="mailto:eariko@tech-center.com?cc=eariko@outlook.com" >eariko@tech-center.com</a></p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Call:</h4>
+                <p>+44 772 10 84 888</p>
+              </div>
+           </div>
+
+          </div>
+
+          <div class="col-lg-8 mt-5 mt-lg-0 d-none d-sm-block">
+
+            <div class="container-cards">
+              <div class="panel-cards active" style="background-image: url('img/imgpost1.jpg');">
+                  <h3 class="d-none d-sm-block">Software Engineer</h3>
+              </div>
+              <div class="panel-cards" style="background-image: url('img/imgpost2.jpg');">
+                  <h3>Network Engineer</h3>
+              </div>
+              <div class="panel-cards" style="background-image: url('img/imgpost3.jpg');">
+                  <h3>Web Developer</h3>
+              </div>
+              <div class="panel-cards" style="background-image: url('img/imgpost4.jpg');">
+                  <h3>Java/C# Developer</h3>
+              </div>
+              <div class="panel-cards" style="background-image: url('img/imgpost5.jpg');">
+                  <h3>Freelancer</h3>
+              </div>
+          </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+
+  <footer id="footer">
+    <div class="container">
+      <h3>Emmanuel Jesse Ariko</h3>
+        <p>Full-stack Developer, IT Infrastructure Engineer, Systems specialist and Administrator, Java developer, Linux specialist and C# developer.</p>
+        <div class="social-links">
+          <a href="https://twitter.com/eariko1" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+          <a href="https://www.linkedin.com/in/emmanuel-jesse-ariko/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        </div>
+        <div class="row mb-5">
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+            <a href="#" class="href">Web Developer</a><br/>
+            <a href="#" class="href">Wordpress Developer</a><br/>
+            <a href="#" class="href">Software Engineering</a><br/>
+            <a href="#" class="href">Networking and Infrastructure</a><br/>
+            <a href="#" class="href">Graphic Design</a><br/>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
+            <a href="#" class="href">Consulting Services</a><br/>
+            <a href="#" class="href">Cloud Computing </a><br/>
+            <a href="#" class="href">Hosting &amp; maintenance</a><br/>
+            <a href="#" class="href">Cybersecurity</a><br/>
+            <a href="#" class="href">Database Management</a><br/>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+            <a href="#" class="href">Virtualisation</a><br/>
+            <a href="#" class="href">Internet of Things </a><br/>
+            <a href="#" class="href">Artificial Intelligence</a><br/>
+            <a href="#" class="href">Microwave &amp; MIMO Networks</a><br/>
+            <a href="#" class="href">Games and Robotics</a><br/>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
+            <a href="#" class="href">Micro-programmable Chips Services</a><br/>
+            <a href="#" class="href">Help-desk and User Support </a><br/>
+            <a href="#" class="href">Network Monitoring, LAN, WLAN and WAN</a><br/>
+            <a href="#" class="href">Data mining &amp; Virtualisation</a><br/>
+            <a href="#" class="href">E-commerce Services</a><br/>
+          </div>
+
+        </div>
+        <div class="copyright">
+          &copy; <strong><span>Arikom</span></strong>. 
+        </div>
+    </div>
+  </footer>
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+
+  <script src="support/aos/aos.js"></script>
+  <script src="support/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="support/glightbox/js/glightbox.min.js"></script>
+  <script src="support/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="support/php-email-form/validate.js"></script>
+  <script src="support/purecounter/purecounter.js"></script>
+  <script src="support/swiper/swiper-bundle.min.js"></script>
+  <script src="support/typed.js/typed.min.js"></script>
+  <script src="support/waypoints/noframework.waypoints.js"></script>
+
+
+  <script src="js/main.js"></script>
+
+</body>
+
 </html>
-<script src="js/bootstrap.bundle.min.js" ></script>
-<script src="js/jquery.slim.min.js" ></script>
