@@ -275,4 +275,12 @@
          panel.classList.remove('active')
      })
  }
+
+ /**
+  * AOS animation
+  */
+
+ AOS.init({
+  duration: 1200,
+})
  
