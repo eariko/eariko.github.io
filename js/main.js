@@ -277,9 +277,9 @@
  }
 
  /**
-  * AOS animation
+  * AOS animation refresh
   */
-
+  window.addEventListener('load', AOS.refresh)
 //  AOS.init({
 //   startEvent: 'load',
 //   duration: 1200,
