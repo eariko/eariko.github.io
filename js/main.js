@@ -280,7 +280,9 @@
   * AOS animation
   */
 
- AOS.init({
-  duration: 1200,
-})
+//  AOS.init({
+//   startEvent: 'load',
+//   duration: 1200,
+  
+// })
  
